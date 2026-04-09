@@ -22,12 +22,12 @@ This allows anyone to replicate analyses, explore the dataset in their own envir
 To explore the interactive network:
 
 1. **Local Viewing:**  
-   Download or clone the repository, make sure all files (`index.html`, `mygraph.html`, CSS, JS if any) are in the same folder, and open `index.html` in your browser.
+   Download or clone the repository, make sure all files (`index.html`, `mygraph.html`, `about.html`) are in the same folder, and open `index.html` in your browser.
 
 2. **GitHub Pages:**  
-   The project may also be available via GitHub Pages at [https://mmoscato00.github.io/SpoonRiverAnthologyDH/](https://mmoscato00.github.io/SpoonRiverAnthologyDH/), if deployed.  
+   The project may also be available via GitHub Pages at [https://mmoscato00.github.io/SpoonRiverAnthologyDH/](https://mmoscato00.github.io/SpoonRiverAnthologyDH/)  
 
-> **Note:** Make sure all HTML, CSS, and JS files are together in the same folder when opening locally for the visualization to work correctly.
+> **Note:** Make sure all HTML files are together in the same folder when opening locally for the visualization to work correctly.
 
 ## Contact
  
