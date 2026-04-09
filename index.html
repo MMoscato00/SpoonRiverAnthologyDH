@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spoon River Anthology Mention Network</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        height: 100%; 
+        background-color: #F1F5F9;
+    }
+
+    header {
+        background-color: #4CAF50; 
+        color: white;
+        padding: 10px;
+        text-align: left;
+    }
+
+    nav {
+        margin-top: 10px;
+        background-color: #1976D2; 
+        display: flex;
+        justify-content: center; /* centra gli elementi */
+        gap: 20px; /* spazio uniforme tra i link */
+        padding: 10px 0;
+    }
+
+    nav a {
+        color: white; 
+        text-decoration: none;
+        padding: 10px 20px;
+        font-weight: bold;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    nav a:hover {
+        background-color: #A5D6A7; 
+        color: #4CAF50;
+    }
+
+    .container {
+        background-color: #B0BEC5; 
+        padding: 20px;
+        text-align: center;
+        min-height: calc(100vh - 130px); 
+        box-sizing: border-box;
+    }
+
+    .container h1 {
+        font-size: 2.5rem;
+        color: #333333; 
+    }
+
+    .container p {
+        font-size: 1.2rem;
+        margin: 20px 0;
+        text-align: justify;
+        color: #000000; 
+    }
+
+    footer {
+        margin-top: 20px; 
+        text-align: right;
+        font-size: 0.8rem;
+        padding-right: 20px;
+        color: #000000; 
+    }
+</style>
+</head>
+<body>
+
+    <header>
+        <h1>Spoon River Anthology Mention Network</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+    </nav>
+
+    <div class="container">
+        <h1>Spoon River Anthology Mention Network</h1>
+        <p>
+            How to Use:
+            Below you will find the Mention-Network created from the poems of the Spoon River Anthology. You can navigate within the dynamic visualization to observe the graph with zoom capabilities. The nodes are selectable to highlight neighboring nodes. Using the search bar, you can search for the title of a poem and view its connections.
+        </p>
+
+        <div class="iframe-container">
+            <iframe src="mygraph.html" width="1200" height="700" frameborder="0"></iframe>
+        </div>
+
+        <footer>
+            <p>by Mattia Moscato</p>
+            <p>CC0-1.0 license</p>
+        </footer>
+    </div>
+
+</body>
+</html>
